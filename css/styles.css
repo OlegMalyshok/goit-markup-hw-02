@@ -1,20 +1,3 @@
-@font-face {
-  font-family: "Raleway-ExtraBold";
-  src: url(../fonts/Raleway-ExtraBold.ttf);
-}
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url(../fonts/Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: "Roboto-Medium";
-  src: url(../fonts/Roboto-Medium.ttf);
-}
-@font-face {
-  font-family: "Roboto-Regular";
-  src: url(../fonts/Roboto-Regular.ttf);
-}
-
 :root {
   --main-title-color: #fff;
   --secondary-title-color: #2e2f42;
@@ -25,6 +8,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #2e2f42;
 }
 
 .list {
@@ -49,8 +34,6 @@ body {
   overflow: hidden;
 }
 /* Header */
-.header {
-}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -66,12 +49,6 @@ body {
 .header-logo span {
   color: #2e2f42;
 }
-.header-navigation {
-}
-.header-list {
-}
-.header-item {
-}
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -84,8 +61,6 @@ body {
   color: #4d5ae5;
 }
 
-.header-addres {
-}
 .header-mail {
   font-style: normal;
   font-weight: 400;
@@ -102,6 +77,17 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #4d5ae5;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #4d5ae5;
+}
+
 /* Header */
 
 /* Hero section */
@@ -126,25 +112,22 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  opacity: 0.5;
+}
 /* Hero section */
 
-/* Section 1 */
-.section-1 {
-}
-.section-1-tittle {
-}
-.section-1-list {
-}
-.section-1-item {
-}
-.section-1-heading {
+/* Section first */
+.section-first-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
-.section-1-text {
+.section-first-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -152,57 +135,45 @@ body {
   color: var(--main-text-color);
 }
 
-/* Section-1 */
+/* Section-first */
 
-/* Section 2 */
-.section-2 {
-}
-.section-2-tittle {
+/* Section second */
+.section-second-tittle {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-title-color);
 }
-.section-2-list {
-}
-.section-2-item {
-}
 
-/* Section 2 */
+/* Section second */
 
-/* Section 3 */
-.section-3 {
+/* Section third */
+.section-third {
   background: var(--secondary-backgrounds-color);
 }
-.section-3-tittle {
+.section-third-tittle {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-title-color);
 }
-.section-3-list {
-}
-.list {
-}
-.section-3-item {
-}
 
-.section-3-heading {
+.section-third-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-3-text {
+.section-third-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-/* Section 3 */
+/* Section third */
 
 /* footer */
 .footer {
@@ -222,9 +193,6 @@ body {
 .footer-logo span {
   color: #f4f4fd;
 }
-.link {
-}
-
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -237,11 +205,6 @@ body {
 /* Portfolio */
 
 /*  Prt Section 1 */
-
-.portfolio-section-1 {
-}
-.portfolio-menu {
-}
 .portfolio-btn {
   font-family: inherit;
   font-style: normal;
@@ -263,31 +226,18 @@ body {
   color: #ffffff;
 }
 
-/* Prt Section 2 */
-
-.portfolio-ourworks {
-}
-.visually-hidden {
-}
-.portfolio-section-2-lisst {
-}
-.list {
-}
-.portfolio-section-2-item {
-}
-.portfolio-section-2-heading {
+/* Prt Section second */
+.portfolio-section-second-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
-.portfolio-section-2-text {
+.portfolio-section-second-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-.portfolio-list {
 }
